@@ -4,9 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio website</title>
   </head>
   <body>
-    <h3>Portfolio website</h3>
+    <header class="header">
+      <a href="#" class="logo">Mo-aden</a>
+      <nav>
+        <ul class="navList">
+          <li><a href="#" class="navLink">About me</a></li>
+          <li><a href="#" class="navLink">Work</a></li>
+          <li><a href="#" class="navLink">Contact me</a></li>
+          <li><a href="#" class="navLink">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="heroContainer">
+          <h2 class="primary-heading">
+            <span>Hello my name is</span>Mohamed Aden
+          </h2>
+          <p class="text-description">
+            Front-end Developer Based in Denver, Colorado (US)
+          </p>
+        </div>
+      </section>
+      <section class="section-aboutme container">
+        <div class="aboutme-title">
+          <h3 class="tertiary-heading">About me</h3>
+        </div>
+        <div class="aboutme-info">
+          <p class="text-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro illum
+            repudiandae error quibusdam sapiente expedita aspernatur corporis
+            possimus repellendus! Harum, ratione reprehenderit amet atque modi
+            rem nihil ipsa pariatur doloribus! Nemo pariatur libero mollitia
+            odio officiis at quas dolore placeat, soluta, quibusdam omnis nam
+            similique quo nobis explicabo provident rerum?
+          </p>
+        </div>
+      </section>
+      <section class="section-projects container">
+        <div class="project-heading">
+          <h3 class="tertiary-heading">Work</h3>
+        </div>
+        <div class="project-info">
+          <h4 class="project-title">Calculator</h4>
+          <p>JavaScript/HTML5/CSS</p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

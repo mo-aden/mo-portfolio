@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Rubik', sans-serif;
+  font-size: 62.5%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1.8rem;
+  padding: 2.4rem 4.8rem;
+  background-color: #495057;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 6px 3px;
+  background-color: #15aabf;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  gap: 4.8rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+li .navLink {
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 8px;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+}
+
+li .navLink:hover {
+  color: #15aabf;
+}
+
+/* HERO SECTION */
+
+.hero {
+  height: 32vh;
+  padding: 5.8rem 12.6rem;
+  color: #fff;
+  position: relative;
+
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 13%,
+    rgba(2, 0, 36, 1) 79%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.primary-heading {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.primary-heading span {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+  display: block;
+}
+
+.text-description {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+}
+
+.heroContainer {
+  position: absolute;
+  width: 90%;
+  margin: 0 auto;
+}
+/* SECTION ABOUT ME PROJECTS */
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 4.8rem 9.6rem;
+  display: flex;
+  gap: 9.6rem;
+}
+
+.tertiary-heading {
+  font-size: 3.2rem;
+  letter-spacing: 2px;
+  border-right: 2px solid black;
+  padding: 2.4rem 4.8rem;
+}
+
+.project-info {
+  position: relative;
+  bottom: 20px;
+  padding: 9.6rem;
+  border: 2px solid #15aabf;
+
+  background-image: url('./images/blCalcImage.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.project-title {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.project-info p {
+  font-size: 1.8rem;
+}
