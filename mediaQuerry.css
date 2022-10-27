@@ -1,0 +1,30 @@
+/* MEDIA QUERRY */
+@media screen and (max-width: 876px) {
+  .header {
+    font-size: 1.2rem;
+  }
+
+  .navList {
+    gap: 1.2rem;
+  }
+
+  .heroContainer {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+
+  .tertiary-heading {
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 2.4rem 4.8rem;
+  }
+
+  .section-contact {
+    flex-direction: column;
+  }
+}
