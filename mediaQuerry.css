@@ -26,5 +26,6 @@
 
   .section-contact {
     flex-direction: column;
+    text-align: center;
   }
 }
