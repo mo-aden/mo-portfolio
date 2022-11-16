@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 62.5%;
 }
 
@@ -52,21 +52,29 @@ li .navLink:hover {
 /* HERO SECTION */
 
 .hero {
-  height: 32vh;
+  /* height: 32vh; */
   padding: 5.8rem 12.6rem;
   color: #fff;
-  position: relative;
+  /* position: relative; */
 
   background: rgb(9, 9, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 9, 121, 1) 13%,
-    rgba(2, 0, 36, 1) 79%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(90deg, rgba(9, 9, 121, 1) 13%, rgba(2, 0, 36, 1) 79%, rgba(0, 212, 255, 1) 100%);
+
+  display: flex;
+  gap: 9.6rem;
+  justify-content: space-around;
 }
 
-.primary-heading {
+.my-photo {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 9px;
+  background-image: url("./images/my-picture.JPG");
+  background-position: center;
+  background-size: cover;
+}
+
+.primary-heading .primary-heading {
   font-size: 4.8rem;
   margin-bottom: 2.4rem;
 }
@@ -83,11 +91,11 @@ li .navLink:hover {
   margin-bottom: 2.4rem;
 }
 
-.heroContainer {
+/* .heroContainer {
   position: absolute;
   width: 90%;
   margin: 0 auto;
-}
+} */
 /* SECTION ABOUT ME PROJECTS */
 
 .container {
@@ -111,7 +119,7 @@ li .navLink:hover {
   padding: 9.6rem;
   border: 2px solid #15aabf;
 
-  background-image: url('./images/blCalcImage.jpg');
+  background-image: url("./images/blCalcImage.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
